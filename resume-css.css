@@ -301,6 +301,10 @@ footer ul li a {
     border-radius: 4px;
 }
 
+footer ul li a:hover {
+    color: #e1e8ff;
+}
+
 footer h3 {
     color: rgb(255, 166, 0);
     text-align: center;
