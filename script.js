@@ -54,7 +54,8 @@ const viewWorks =(end) => {
     const heading5 = document.createElement('h5');
     heading5.className = 'neetocode-link';
     const link = document.createElement('a');
-    link.href = `/projects/${item.title}/index.html`
+    // link.href = `/projects/${item.title}/index.html`
+    link.href = `#`
     link.textContent = 'View Now';
     heading5.appendChild(link);
     workContent.appendChild(heading5);
