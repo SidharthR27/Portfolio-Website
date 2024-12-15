@@ -17,6 +17,7 @@ addWork = document.getElementById('addWork');
 const viewWorks =(end) => {
     console.log(end)
     addWork.innerHTML = ""
+
     for(let i=0; i<end; i++ ){
         console.log(i)
         item = myWorks[i];
@@ -53,7 +54,7 @@ const viewWorks =(end) => {
     const heading5 = document.createElement('h5');
     heading5.className = 'neetocode-link';
     const link = document.createElement('a');
-    link.href = '#';
+    link.href = `/projects/${item.title}/index.html`
     link.textContent = 'View Now';
     heading5.appendChild(link);
     workContent.appendChild(heading5);
