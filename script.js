@@ -2,7 +2,7 @@ myWorks = [
 
 ]
 
-workTitles = ["Currency Converter", "Password Generator", "Wordle", "Tic Tac Toe", "Battleship", "sticky Notes", "ToDo App"]
+workTitles = ["Currency Converter", "Password Generator", "Wordle", "Tic Tac Toe", "Battleship", "Sticky Notes", "ToDo App"]
 workImages = ["currency_converter.jpeg", "password_generator.jpeg", "Wordle.png", "tic_tac_tow.jpeg", "Battleship.png", "StickyNotes.png", "TodoList.png"]
 
 workTitles.forEach((title, index) => {
