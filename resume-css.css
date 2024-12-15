@@ -149,7 +149,8 @@ h5 {
     color: #99b1cf;
     width: 90%;
     max-width: 900px;
-    min-width: 590px;
+    /* min-width: 590px; */
+    min-width: 700px;
     border-radius: 8px;
     border-radius: 20px
 
