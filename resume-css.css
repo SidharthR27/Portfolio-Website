@@ -116,8 +116,14 @@ li a:hover {
     width: 60%;
     margin: 0 auto;
 
-
 }
+
+span{
+    font-style: italic;
+    /* color: #3a8eb9; */
+    color: #179475;
+}
+
 
 .intro-h5 {
     color: orange;
@@ -330,6 +336,15 @@ footer h3 {
 
 }
 
+.footerLine {
+    margin: 10px 0px -10px 0px;
+    text-align: center;
+    font-size: 14px;
+    color: #8790a1;
+    font-style: italic;
+}
+
+
 @media screen and (max-width: 930px) {
 
     .hamburger {
@@ -376,7 +391,7 @@ footer h3 {
     }
 
     footer {
-        width: 100%;
+        width: 90%;
     }
     .work1-image {
         border-radius: 20px 20px 0px 0px;
