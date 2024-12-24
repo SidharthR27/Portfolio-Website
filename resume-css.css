@@ -118,7 +118,7 @@ li a:hover {
 
 }
 
-span{
+span {
     font-style: italic;
     /* color: #3a8eb9; */
     color: #179475;
@@ -128,6 +128,7 @@ span{
 .intro-h5 {
     color: orange;
 }
+
 .intro {
     margin-bottom: 80px;
 }
@@ -159,7 +160,6 @@ h5 {
     min-width: 700px;
     border-radius: 8px;
     border-radius: 20px
-
 }
 
 .work1:hover {
@@ -290,22 +290,36 @@ p {
 
 
 #skillsContainer {
-
     margin-top: 20px;
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* flex-grow: 0; */
+    flex-shrink: 0;
+}
+
+.logo-container {
+    /* padding: 40px; */
+    border-radius: 8px;
+    /* width: 300px; */
+    /* height: 80px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    flex-grow: 0;
+
 }
 
-.skill{
-    font-size: 16px;
-    background-color: rgb(72, 71, 71);
-    display: inline;
-    padding: 8px;
-    border-radius: 6px;
+.logo-container:hover {
+    background-color: #179475;
 }
 
+.skill {
+    /* margin: 50px; */
+    width: 200px;
+}
 
 .contact-me-sub {
     margin: 20px 0;
@@ -393,6 +407,7 @@ footer h3 {
         flex-direction: column;
         align-items: center;
     }
+
     #addWork {
         display: flex;
         flex-direction: column;
@@ -417,6 +432,7 @@ footer h3 {
     footer {
         width: 90%;
     }
+
     .work1-image {
         border-radius: 20px 20px 0px 0px;
     }
@@ -427,7 +443,12 @@ footer h3 {
         border-radius: 0px 0px 20px 20px;
         padding-top: 20px;
     }
+    #skillsContainer {
+        flex-wrap: wrap;
+    }
+    .logo-container {
+        width: 150px;
+    }
 
 
 }
-
