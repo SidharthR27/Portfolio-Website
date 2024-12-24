@@ -292,23 +292,21 @@ p {
 #skillsContainer {
     margin-top: 20px;
     display: flex;
-    gap: 30px;
-    justify-content: center;
+    row-gap: 30px;
+    justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; */
-    /* flex-grow: 0; */
-    flex-shrink: 0;
+    flex-wrap: wrap;
+
 }
 
 .logo-container {
-    /* padding: 40px; */
+    padding: 20px;
     border-radius: 8px;
     /* width: 300px; */
     /* height: 80px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 
 }
 
@@ -318,7 +316,8 @@ p {
 
 .skill {
     /* margin: 50px; */
-    width: 200px;
+    width: 120px;
+    /* height: 25px; */
 }
 
 .contact-me-sub {
@@ -443,12 +442,12 @@ footer h3 {
         border-radius: 0px 0px 20px 20px;
         padding-top: 20px;
     }
-    #skillsContainer {
+    /* #skillsContainer {
         flex-wrap: wrap;
     }
     .logo-container {
-        width: 150px;
-    }
+        /* width: 150px; */
+    /* }  */
 
 
 }
