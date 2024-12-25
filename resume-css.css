@@ -284,7 +284,8 @@ p {
 }
 
 .skills {
-    margin-bottom: 20px;
+    margin-bottom: 120px;
+    margin-top: 40px;
     width: 100%;
 }
 
@@ -357,6 +358,7 @@ footer h3 {
     color: rgb(255, 166, 0);
     text-align: center;
     padding: 20px;
+    font-size: 1em;
 
 }
 
@@ -374,7 +376,7 @@ footer h3 {
 }
 
 .footerLine {
-    margin: 10px 0px -10px 0px;
+    margin: 30px 0px -10px 0px;
     text-align: center;
     font-size: 14px;
     color: #8790a1;
@@ -394,7 +396,7 @@ footer h3 {
 
     .sidebar {
         transform: translateX(-100%);
-        width: 50%;
+        width: 40%;
     }
 
     .sidebar.active {
