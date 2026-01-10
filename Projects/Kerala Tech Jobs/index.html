@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    
+    <script type="text/javascript">
+        // This function handles the redirection
+        function redirectToExternalSite() {
+            const destination = "https://keralatechjobs.pages.dev/";
+            
+            // .replace() prevents the user from clicking "Back" 
+            // and getting redirected again immediately.
+            window.location.replace(destination);
+        }
+
+        // Execute the function immediately
+        redirectToExternalSite();
+    </script>
+</head>
+<body>
+    <p>Redirecting you to our new site. If nothing happens, 
+       <a href="https://keralatechjobs.pages.dev/">click here</a>.
+    </p>
+</body>
+</html>

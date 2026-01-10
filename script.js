@@ -2,20 +2,11 @@ myWorks = [
 
 ]
 
-workTitles = ["Currency Converter", "Password Generator", "Wordle", "Tic Tac Toe", "Battleship", "Sticky Notes", "ToDo App"]
-workImages = ["currency_converter.jpeg", "password_generator.jpeg", "Wordle.png", "tic_tac_tow.jpeg", "Battleship.png", "StickyNotes.png", "TodoList.png"]
-// workDescription = [
-//     "A currency converter app that uses an API for real-time exchange rates. Includes a simple interface to select currencies, input an amount, and display the converted value instantly.",
-//     "An application that generates strong passwords with customizable options for allowed characters and an easy-to-use copy feature",
-//     "A single-player Wordle game where players guess a five-letter word within six attempts, featuring an intuitive layout and a feedback system to indicate correct, present, or absent letters.",
-//     "A two-player Tic-Tac-Toe game where players alternately mark 'X' and 'O' on a grid, aiming to align three in a row horizontally, vertically, or diagonally, with layout design and win, lose, and tie conditions.",
-//     "An interactive Battleship game with a clickable grid to reveal battleships or water, featuring a complete game layout and implemented winning and losing conditions.",
-//     "An application featuring a dashboard for creating and removing notes, designed to help users effectively organize their thoughts and tasks.",
-//     "A functional to-do list app enabling users to create, remove, edit, and manage tasks, including search, featuring a dynamic user interface for seamless task management."
-
-// ]
+workTitles = ["Kerala Tech Jobs","Currency Converter", "Password Generator", "Wordle", "Tic Tac Toe", "Battleship", "Sticky Notes", "ToDo App"]
+workImages = ["keralatechjobs.png","currency_converter.jpeg", "password_generator.jpeg", "Wordle.png", "tic_tac_tow.jpeg", "Battleship.png", "StickyNotes.png", "TodoList.png"]
 
 workDescription = [
+    "Your gateway to Kerala's tech scene—a clean, updated, centralized platform for exploring the newest job postings across Technopark and Infopark",
     "A sleek currency converter app that uses an API for real-time rates. Select currencies and instantly see the conversion—simple and smooth.",
     "A strong password generator app with customizable character options and a super handy copy feature. Stay secure effortlessly.",
     "The classic Wordle game—guess the five-letter word in six tries, with live feedback on each guess. Can you crack it?",
